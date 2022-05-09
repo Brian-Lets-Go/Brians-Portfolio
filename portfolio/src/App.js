@@ -26,10 +26,12 @@ function App() {
     return <About />;
   };
   
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <div>
       <div className="mobile-header">
-        <Header currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
+        <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
       <div>
         <main>{renderPage()}</main>
