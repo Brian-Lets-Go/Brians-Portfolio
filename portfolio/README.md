@@ -15,6 +15,8 @@
   ## [Description](#table-of-contents)
 
   This is my personal webpage with select projects I worked on and and a section to contact me
+
+  [Link to the website](https://brian-lets-go.github.io/Brians-Portfolio/)
  
   ## [Questions](#table-of-contents)
   Please contact me using the following links:
