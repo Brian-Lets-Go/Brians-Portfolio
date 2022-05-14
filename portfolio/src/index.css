@@ -42,18 +42,21 @@ main {
 
 .name {
 	font-size: 30px;
-	text-align: center;
 }
 
 .nav-tabs {
 	list-style: none;
+
 	
 }
 
 .nav-item {
 	margin-right: 20px;
 	font-size: 22px;
-	
+}
+
+.navbar-brand {
+	align-content: center;
 }
 
 .render-block {
@@ -72,6 +75,18 @@ main {
 	font-size: 22px;
 }
 
+.title {
+	font-size: 20px;
+}
+
+.image img {
+	width: 300px;
+	height: 200px;
+}
+
+.label {
+	width: 400px;
+}
 
 .footer {
 	width: 100%;
