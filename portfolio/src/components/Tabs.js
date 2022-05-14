@@ -2,7 +2,7 @@
 export function Tabs(props) {
 	const tabs = ["About", "Portfolio", "Contact", "Resume"];
 	return (
-	  <div className="tabs is-centered">
+	  <div className="tabs">
 		<ul className="nav nav-tabs">
 		  {tabs.map((tab) => (
 			<li
@@ -13,8 +13,6 @@ export function Tabs(props) {
 			>
 			  <a
 				href={"#" + tab.toLowerCase()}
-				// Whenever a tab is clicked on,
-				// the current page is set through the handlePageChange props.
 				onClick={() => props.handlePageChange(tab)}
 				className={
 				  props.currentPage === tab ? "nav-link active" : "nav-link"

@@ -27,7 +27,8 @@ import { Resume }from "./pages/Resume";
   
 	return (
 	  <div>
-		<nav className="navbar">
+		<div className="header">
+		<nav className="name">
 		  <div className="navbar-brand">
 			<a
 			  className="navbar-item"
@@ -35,7 +36,7 @@ import { Resume }from "./pages/Resume";
 			  target="_blank"
 			  href="https://github.com/Brian-Lets-Go"
 			>
-			  <span className="content is-large">Brian Meenan</span>
+			  <span className="content">Brian Meenan</span>
 			</a>
 		  </div>
 		</nav>
@@ -43,8 +44,9 @@ import { Resume }from "./pages/Resume";
 		  currentPage={currentPage}
 		  handlePageChange={handlePageChange}
 		/>
+		</div>
 		<main>
-		  <div>{renderPage(currentPage)}</div>
+		  <div className="render-block">{renderPage(currentPage)}</div>
 		</main>
 	  </div>
 	);

@@ -2,9 +2,9 @@ body {
 	margin: 0 auto;
 	max-width: 90%;
 	padding: 50px 30px;
-  font-family: 'Roboto Condensed', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  	font-family: 'Comic Sans', sans-serif;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
@@ -17,7 +17,7 @@ main {
 }
 
 * {
-  font-family: 'Roboto Condensed', sans-serif;
+	
 }
 
 .logo {
@@ -27,7 +27,54 @@ main {
 	cursor: pointer;
 }
 
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.name {
+	font-size: 30px;
+	text-align: center;
+}
+
+.nav-tabs {
+	list-style: none;
+	
+}
+
+.nav-item {
+	margin-right: 20px;
+	font-size: 22px;
+	
+}
+
+.render-block {
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+.about-content {
+	display: flex;
+}
+
+.content-div {
+	margin-left: 30px;
+	font-size: 22px;
+}
+
+
 .footer {
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -59,3 +106,4 @@ header {
 	padding: 1rem;
 	text-align: center;
 }
+
