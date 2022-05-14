@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Brians-Portfolio/static/css/main.cb2d4fa2.css",
+    "main.js": "/Brians-Portfolio/static/js/main.8eef3f09.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Brians-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Run-Buddy.PNG": "/Brians-Portfolio/static/media/Run-Buddy.b9cee29c7b28fd2d24f7.PNG",
+    "static/media/Tech-Blog.PNG": "/Brians-Portfolio/static/media/Tech-Blog.ca933f0c7ba6e97103f8.PNG",
+    "static/media/Post-Up.PNG": "/Brians-Portfolio/static/media/Post-Up.1a9e92271120281f028a.PNG",
+    "static/media/BM_Resume.PNG": "/Brians-Portfolio/static/media/BM_Resume.cf00060fd6eed1101fd0.PNG",
+    "static/media/Employee-Tracker.PNG": "/Brians-Portfolio/static/media/Employee-Tracker.c29e35b5212f9cdf7113.PNG",
+    "static/media/headshot.PNG": "/Brians-Portfolio/static/media/headshot.791bbb4748f60ce35e7f.PNG",
+    "static/media/Maki-Maku.PNG": "/Brians-Portfolio/static/media/Maki-Maku.6fc80740473a4b78c3be.PNG",
+    "static/media/LinkedIn.png": "/Brians-Portfolio/static/media/LinkedIn.7a5eab93c7daf7d2ceeb.png",
+    "static/media/Weather-Dashboard.PNG": "/Brians-Portfolio/static/media/Weather-Dashboard.b2e8c56d05aca389f88e.PNG",
+    "index.html": "/Brians-Portfolio/index.html",
+    "main.cb2d4fa2.css.map": "/Brians-Portfolio/static/css/main.cb2d4fa2.css.map",
+    "main.8eef3f09.js.map": "/Brians-Portfolio/static/js/main.8eef3f09.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Brians-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb2d4fa2.css",
+    "static/js/main.8eef3f09.js"
+  ]
+}
