@@ -2,7 +2,7 @@
 import Project  from "./Projects";
 import PostUp from '../../assets/Post-Up.PNG';
 import MakiMaku from '../../assets/Maki-Maku.PNG';
-import TechBlog from '../../assets/Tech-Blog.PNG';
+import Lebowski from '../../assets/Lebowski.PNG';
 import WeatherDashboard from '../../assets/Weather-Dashboard.PNG';
 import RunBuddy from '../../assets/Run-Buddy.PNG';
 import EmployeeTracker from '../../assets/Employee-Tracker.PNG';
@@ -28,12 +28,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "Tech Blog",
-    languages: "js, html, handlebars, bcrypt. dotenv",
-    image: TechBlog,
-    description: "Blog about all the latest news and devices here",
-    repo: "https://github.com/Brian-Lets-Go/Tech-Blog",
-    live: "https://evening-peak-47422.herokuapp.com/", 
+    title: "MarketZero",
+    languages: "MongoDB, React, Express, Node",
+    image: Lebowski,
+    description: "Navigate your next Lebowski convention with this Lebowski themed e-commerce app",
+    repo: "https://github.com/Brian-Lets-Go/MarketZero",
+    live: "https://stormy-gorge-49394.herokuapp.com/", 
   },
   {
     id: 3,
